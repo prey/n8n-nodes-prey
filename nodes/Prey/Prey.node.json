@@ -1,0 +1,23 @@
+{
+	"node": "n8n-nodes-prey",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility", "Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/prey/n8n-nodes-prey#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/prey/n8n-nodes-prey"
+			}
+		],
+		"apiDocumentation": [
+			{
+				"url": "https://api.preyproject.com/"
+			}
+		]
+	}
+}
