@@ -1,6 +1,6 @@
 {
     "name": "@preyproject/n8n-nodes-prey",
-    "version": "0.1.0-beta.1",
+    "version": "0.1.0-beta.3",
     "description": "n8n community node for Prey",
     "license": "MIT",
     "homepage": "",
@@ -16,14 +16,14 @@
         "url": "https://github.com/prey/n8n-nodes-prey.git"
     },
     "scripts": {
-		"build": "n8n-node build",
-		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
-		"lint": "n8n-node lint",
+        "build": "n8n-node build",
+        "build:watch": "tsc --watch",
+        "dev": "n8n-node dev",
+        "lint": "n8n-node lint",
         "lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
-	},
+        "release": "n8n-node release",
+        "prepublishOnly": "n8n-node prerelease"
+    },
     "publishConfig": {
         "access": "public",
         "tag": "beta"
