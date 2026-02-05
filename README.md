@@ -1,5 +1,15 @@
 # n8n-nodes-prey
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" alt="n8n.io - Workflow Automation" height="56" />
+  <img src="./icons/prey.svg" alt="Prey" height="56" />
+</p>
+
+![npm version](https://img.shields.io/npm/v/@preyproject/n8n-nodes-prey)
+![npm downloads](https://img.shields.io/npm/dm/@preyproject/n8n-nodes-prey)
+![license](https://img.shields.io/npm/l/@preyproject/n8n-nodes-prey)
+![GitHub last commit](https://img.shields.io/github/last-commit/prey/n8n-nodes-prey)
+
 This is an n8n community node that lets you work with the Prey Developer API in your n8n workflows.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/sustainable-use-license/) workflow automation platform.
