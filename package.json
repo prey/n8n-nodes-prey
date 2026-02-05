@@ -1,6 +1,6 @@
 {
     "name": "@preyproject/n8n-nodes-prey",
-    "version": "0.1.0-beta.3",
+    "version": "0.1.1",
     "description": "n8n community node for Prey",
     "license": "MIT",
     "homepage": "",
