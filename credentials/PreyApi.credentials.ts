@@ -1,9 +1,15 @@
-import type { ICredentialType, IconFile, INodeProperties } from 'n8n-workflow';
+import type {
+	IAuthenticateGeneric,
+	Icon,
+	ICredentialTestRequest,
+	ICredentialType,
+	INodeProperties,
+} from 'n8n-workflow';
 
 export class PreyApi implements ICredentialType {
 	name = 'preyApi';
 	displayName = 'Prey API';
-	icon: IconFile = 'file:prey.svg';
+	icon: Icon = { light: 'file:../icons/prey.svg', dark: 'file:../icons/prey.dark.svg' };
 	documentationUrl = 'https://panel.preyproject.com/settings/developers';
 
 	properties: INodeProperties[] = [
@@ -39,16 +45,16 @@ export class PreyApi implements ICredentialType {
 		},
 	];
 
-	authenticate = {
+	authenticate: IAuthenticateGeneric = {
 		type: 'generic',
 		properties: {
 			headers: {
 				apikey: '={{$credentials.apiKey}}',
 			},
 		},
-	} as const;
+	};
 
-	test = {
+	test: ICredentialTestRequest = {
 		request: {
 			baseURL: 'https://api.preyproject.com/v1',
 			url: '/account',
